@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* Regole per i container delle immagini*/
+
+.container-picture1 {
+    background-color: red;
+}
+
+.container-picture2 {
+    background-color: seagreen;
+}
+
+.container-picture3 {
+    background-color: yellow;
+}
+
+/* Regole per le didascalie */
+
+.img-text {
+    color: yellow;
+    font-size: 40px;
+}
+
+.container-picture3 .img-text {
+    color: green;
+}
+
+
+
