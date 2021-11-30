@@ -7,34 +7,84 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-/* Regole per i container delle immagini*/
+.container {
+    height: 100%;
+}
 
-#container-picture1 {
+/*--Nav--*/
+
+.nav {
+    background-color: transparent;
+    position: fixed;
+    right: 1%;
+    top: 3%;
+    display: inline-block;
+    z-index: 9999;   
+}
+
+.button {
+    display: inline;
+
+}
+
+.nav a {
+
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    line-height: 50px; 
+    height: 50px;    
+}
+
+/*--Regole per i box--*/
+
+#red {
     background-color: red;
 }
 
-#container-picture2 {
-    background-color: seagreen;
+#green {
+    background-color: green;
 }
 
-#container-picture3 {
+#yellow {
     background-color: yellow;
 }
 
-/* Regole per le didascalie */
-
-.img-text {
-    color: yellow;
-    font-size: 40px;
-}
-
-#container-picture3 .img-text {
-    color: green;
-}
-
 .box {
-    width: 100%;
     height: 100vh;
 }
 
+/*--Regole per le immagini--*/
 
+.image-box{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    
+}
+
+img {
+    height: 60%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+}
+
+/*--Regole per il testo--*/
+
+h1 {
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+}
+
+.text {
+    color: yellow;
+}
+
+.green { 
+    color: green;
+}
